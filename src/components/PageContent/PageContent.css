@@ -1,0 +1,15 @@
+.movies__content {
+  margin-bottom: 35px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.movies__search-form {
+  height: 40px;
+  border-radius: 4px;
+  font-family: Inter, 'sans-serif';
+  font-size: 16px;
+  line-height: 22px;
+}

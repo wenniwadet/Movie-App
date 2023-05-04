@@ -1,0 +1,26 @@
+.movie-card__overview {
+  grid-area: overview;
+  padding: 0 20px;
+  margin: 0;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+@media (max-width: 960px) {
+  .movie-card__overview {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-card__overview {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-card__overview {
+    padding: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.error-message {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .error-message {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .error-message {
+    width: 296px;
+  }
+}

@@ -1,0 +1,42 @@
+.movie-card__poster {
+  grid-row: span 4;
+}
+
+.movie-card__poster img {
+  margin: 0;
+  border-radius: 0;
+  width: 185px !important;
+  height: 280px !important;
+}
+
+@media (max-width: 960px) {
+  .movie-card__poster {
+    grid-row: span 2;
+  }
+
+  .movie-card__poster img {
+    width: 100px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-card__poster {
+    grid-row: span 4;
+  }
+  .movie-card__poster img {
+    width: 140px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-card__poster {
+    grid-row: span 2;
+  }
+
+  .movie-card__poster img {
+    width: 60px !important;
+    height: auto !important;
+  }
+}

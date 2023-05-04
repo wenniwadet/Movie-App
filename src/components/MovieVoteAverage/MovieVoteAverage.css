@@ -1,0 +1,11 @@
+.movie-card__vote-average {
+  margin-left: auto;
+  min-width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+}

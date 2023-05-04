@@ -1,0 +1,29 @@
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  column-gap: 10px;
+}
+
+.movies__not-found {
+  margin-top: 10px;
+  flex-grow: 1;
+  font-family: Inter, 'sans-serif';
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .movie-list {
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-list {
+    row-gap: 20px;
+  }
+}

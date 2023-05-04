@@ -1,0 +1,38 @@
+.disconnect {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+
+.disconnect__img {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.disconnect__message {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.disconnect__description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .disconnect__img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .disconnect__message {
+    font-size: 16px;
+  }
+
+  .disconnect__description {
+    width: 250px;
+  }
+}

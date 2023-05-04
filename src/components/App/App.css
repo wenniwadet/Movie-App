@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: local('Inter'), url('../../assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.movies {
+  margin: 0 auto;
+  padding: 0 30px 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1010px;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+@media (max-width: 960px) {
+  .movies {
+    padding: 0 20px 20px;
+    /* min-width: 320px; */
+  }
+}
+
+@media (max-width: 480px) {
+  .movies {
+    padding: 0 16px 20px;
+    min-width: 320px;
+  }
+}
